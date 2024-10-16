@@ -1,0 +1,31 @@
+<html>
+	<head>
+	<title>My First Java Script Program</title>
+	<script>
+		function login() 
+		{
+			var a=document.getElementById("t1");
+			var b=document.getElementById("t2");
+			if(a.value=="Sritam" && b.value=="Sett")
+			{
+				alert("Sucessful");
+			}
+			else{
+				alert("Unsucessful");
+			}
+						
+		}
+	</script>
+	</head>
+	<body bgcolor = "d2b4de">
+		<b>Enter Username</b>
+		<input type= "text" id="t1" placeholder="Enter Username">
+		<br>
+		<b>Enter Password</b>
+		<input type= "password" id="t2" placeholder="Enter Password">
+		<br>
+		<input type= "button" value="Login" onClick = "login()">
+			
+	</body>
+	
+</html>

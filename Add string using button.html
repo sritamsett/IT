@@ -1,0 +1,24 @@
+<html>
+	<head>
+	<title>My First Java Script Program</title>
+	<script>
+		function f() 
+		{
+			var a=document.getElementById("t1");
+			var b=document.getElementById("t2");
+			var c=a.value+" "+ b.value;
+			document.write(c);
+		}
+	</script>
+	</head>
+	<body bgcolor = "d2b4de">
+		<b>Enter First name</b>
+		<input type= "text" id="t1" placeholder="Enter first name">
+		<b>Enter Last name</b>
+		<input type= "text" id="t2" placeholder="Enter Last name">
+		<br>
+		<input type= "button" value="ADD" onClick = "f()">
+		
+	</body>
+	
+</html>
